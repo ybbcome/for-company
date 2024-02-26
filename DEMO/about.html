@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>-IG GLOBAL LIMITED   </title>
+    <meta name="keywords" content="IG GLOBAL LIMITED   ">
+    <meta name="description" content="">
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta name="applicable-device" content="pc,mobile">
+    <meta http-equiv="Cache-Control" content="no-transform ">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="stylesheet" type="text/css" href="static/css/common.css">
+    <link rel="stylesheet" type="text/css" href="static/css/animate.min.css">
+    <script type="text/javascript" src="static/js/jquery.js"></script>
+    <script type="text/javascript" src="static/js/common.js"></script>
+    <script type="text/javascript" src="static/js/wow.min.js"></script>
+    <script>
+      var wow = new WOW({
+        offset: 0,
+      });
+      wow.init();
+    </script>
+    <link rel="stylesheet" type="text/css" href="static/css/swiper.css">
+    <script type="text/javascript" src="static/js/swiper.min.js"></script>
+    <style>
+      .customBtn {
+        width: 260px;
+        height: 50px;
+        border: 0px;
+        background-image: linear-gradient(84deg, #a350dc 0%, #42bcc3 100%),
+          linear-gradient(#2c63e4, #2c63e4);
+        background-blend-mode: normal, normal;
+        border-radius: 12px;
+        color: white;
+        margin-top: 25px;
+        font-size: 14px;
+        cursor: pointer;
+      }
+
+      .customClose {
+        float: right;
+        border: 0px;
+        width: 20px;
+        height: 20px;
+        background-color: #160d2f;
+        color: white;
+        cursor: pointer;
+      }
+
+      #customPopUps-background {
+        position: fixed;
+        z-index: 12000;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.7);
+      }
+
+      #customPopUps {
+        z-index: 13000;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        width: 320px;
+        margin-top: -129px;
+        height: 258px;
+        margin-left: -160px;
+        background-color: #160d2f;
+        border-radius: 12px;
+      }
+    </style>
+    
+    <script>
+      window.__lc = window.__lc || {};
+      window.__lc.license = 13343433;
+      (function (n, t, c) {
+        function i(n) {
+          return e._h ? e._h.apply(null, n) : e._q.push(n);
+        }
+        var e = {
+          _q: [],
+          _h: null,
+          _v: "2.0",
+          on: function () {
+            i(["on", c.call(arguments)]);
+          },
+          once: function () {
+            i(["once", c.call(arguments)]);
+          },
+          off: function () {
+            i(["off", c.call(arguments)]);
+          },
+          get: function () {
+            if (!e._h)
+              throw new Error(
+                "[LiveChatWidget] You can not use getters before load."
+              );
+            return i(["get", c.call(arguments)]);
+          },
+          call: function () {
+            i(["call", c.call(arguments)]);
+          },
+          init: function () {
+            var n = t.createElement("script");
+            (n.async = !0),
+              (n.type = "text/javascript"),
+              (n.src = "https://cdn.livechatinc.com/tracking.js"),
+              t.head.appendChild(n);
+          },
+        };
+        !n.__lc.asyncInit && e.init(),
+          (n.LiveChatWidget = n.LiveChatWidget || e);
+      })(window, document, [].slice);
+
+      function callService() {
+        LiveChatWidget.call("maximize");
+        closeCustom();
+        return false;
+      }
+    </script>
+    <script async="" type="text/javascript" src="static/js/tracking.js"></script>
+    <link rel="shortcut icon" type="image/x-icon" href="https://igmtradfx.com/favicon.ico">
+  </head>
+
+  <body class="lang_zh_tw">
+    <script>
+      function openCustom2() {
+        window.open("#");
+      }
+    </script>
+    <div style="
+        position: fixed;
+        right: 20px;
+        bottom: 50px;
+        z-index: 99999999;
+        cursor: pointer;
+      " onclick="openCustom2()">
+    </div>
+    <div class="wrap">
+      <div class="header wow animate__ animate__fadeInDown animated" data-wow-duration="0.6s" data-wow-delay="0.1s" style="
+          visibility: visible;
+          animation-duration: 0.6s;
+          animation-delay: 0.1s;
+          animation-name: fadeInDown;
+        ">
+        <div class="topbox">
+          <div class="logo" style="height: 70px">
+            <a href="index.html">
+              <img src="static/picture/logo.png" class="">
+            </a>
+          </div>
+          <style>
+            .logostyle {
+              height: 70px;
+            }
+
+            @media all and (max-width: 768px) {
+              .logostyle {
+                width: 100px;
+              }
+            }
+          </style>
+          <style>
+            @media all and (max-width: 950px) {
+              .toplogin {
+                display: none;
+              }
+            }
+
+            @media all and (max-width: 820px) {
+              .toplang {
+                display: none;
+              }
+            }
+          </style>
+          <div class="topnav" style="">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="platform.html">Platform</a></li>
+              <!--                    <li><a href="/en/news">News</a></li>-->
+              <li>
+                <a href="">About us<i></i></a>
+                <div class="m">
+                  <a href="">Company profile</a>
+                  <a href="choose.html">Why choose us</a>
+                  <a href="reg.html">Regulatory</a>
+                </div>
+              </li>
+              <!--                    <li><a href="/en/help">Help Center</a></li>-->
+              <li>
+                <a href="faq.html">Service and support<i></i></a>
+                <div class="m">
+                  <a href="faq.html">Common business issues</a>
+                  <a href="risk_disclosure.html">Risk disclosure</a>
+                  <a href="privacy_policy.html">Privacy Policy</a>
+                  <a href="disclaimer_of_warranty.html">Disclaimer of Warranty</a>
+                </div>
+              </li>
+              <li>
+                <a href="news.html">Information<i></i></a>
+                <div class="m">
+                  <a href="news.html">News</a>
+                  <a href="calendar.html">Calendar</a>
+                </div>
+              </li>
+              <li><a href="contact.html">Contact us</a></li>
+            </ul>
+          </div>
+          <div class="topr">
+            <div class="toplogin">
+              <ul>
+                <li>
+                  <a style="padding: 2px 5px" href="http://user.igmtradfx.com/login" class="b1">Login</a>
+                </li>
+                <li>
+                  <a style="padding: 2px 5px" href="http://user.igmtradfx.com/register " class="b2">Register</a>
+                </li>
+              </ul>
+            </div>
+            <div class="toplang" style="min-width: 80px">
+              <div class="t"><img src="static/picture/en.png">English</div>
+              <div class="m">
+                <ul>
+                  <li>
+                    <a href="index.html"><img src="static/picture/en.png">English</a>
+                  </li>
+                 
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="lang_btn"></div>
+          <div class="nav_btn"><i></i></div>
+        </div>
+      </div>
+      <!--    <h1>about</h1>-->
+<div class="mainer">
+    <div class="mbanner">
+        <div class="tit wow animate__ animate__fadeIn animated" data-wow-duration="1s" data-wow-delay="0.1s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.1s; animation-name: fadeIn;">
+            <b>About us</b><span></span></div>
+        <div class="img" style="background: url(static/image/mban3.jpeg) center center no-repeat;"></div>
+    </div>
+    <div class="about_main1">
+        <div class="mainbox">
+            <div class="about_box1">
+                <div class="img wow animate__ animate__fadeInLeft animated" data-wow-duration="1s" data-wow-delay="0.1s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.1s; animation-name: fadeInLeft;">
+                    <img src="static/picture/img1.jpg"></div>
+                <div class="con wow animate__ animate__fadeInRight animated" data-wow-duration="1s" data-wow-delay="0.1s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.1s; animation-name: fadeInRight;">
+                    <div class="t">Organization Overview</div>
+                    <div class="m">Established in 2002, IG GLOBAL LIMITED    is headquartered in London, with direct
+                        branches in the United States, Vanuatu and Sydney, Australia, and has obtained
+                        financial services qualifications,(FCA ID:146311).<br>
+                        <br>
+                        IG GLOBAL LIMITED    strictly follows industry regulations, adheres to industry standards, and
+                        actively participates in and accepts the regulation of the global mainstream
+                        financial markets.<br>
+                        <br>
+                        Along with the rapid development of the global financial market, IG GLOBAL LIMITED    has joined
+                        hands with many financial research and consulting institutions to study the active
+                        market opportunities and trends, and provide investors with more convenient and
+                        profitable products.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="about_main2">
+        <div class="mainbox">
+            <div class="about_box2">
+                <div class="mtit wow animate__animated animate__fadeInUp" data-wow-duration="1s" data-wow-delay="0.1s" style="visibility: hidden; animation-duration: 1s; animation-delay: 0.1s; animation-name: none;">
+                    <b>Trading Products</b></div>
+                <div class="con wow animate__animated animate__fadeInUp" data-wow-duration="1s" data-wow-delay="0.1s" style="visibility: hidden; animation-duration: 1s; animation-delay: 0.1s; animation-name: none;">
+                    IG GLOBAL LIMITED   , a global provider of financial products trading services, has been committed to
+                    providing comprehensive financial trading products to both individual and institutional
+                    clients.<br>
+                    Unlike most companies that offer only single-market trading products, IG GLOBAL LIMITED    offers
+                    mainstream international investment products covering foreign exchange, precious metals,
+                    energy and major global indices.<br>
+                    You can trade all of these products on the same account and platform by opening a single
+                    account.</div>
+                <div class="img wow animate__animated animate__fadeInUp" data-wow-duration="1s" data-wow-delay="0.1s" style="visibility: hidden; animation-duration: 1s; animation-delay: 0.1s; animation-name: none;">
+                    <img src="static/picture/img2.jpg"></div>
+            </div>
+        </div>
+    </div>
+    <div class="about_main3">
+        <div class="mainbox">
+            <div class="about_box3">
+                <div class="tit wow animate__animated animate__fadeInUp" data-wow-duration="1s" data-wow-delay="0.1s" style="visibility: hidden; animation-duration: 1s; animation-delay: 0.1s; animation-name: none;">
+                    Product Range</div>
+                <div class="con wow animate__animated animate__fadeInUp" data-wow-duration="1s" data-wow-delay="0.1s" style="visibility: hidden; animation-duration: 1s; animation-delay: 0.1s; animation-name: none;">
+                    - Foreign Exchange: offers up to dozens of mainstream foreign exchange currency pairs
+                    including EUR/USD, USD/CAD, GBP/USD, etc.<br>
+                    <br>
+                    - Precious metals: Provide a variety of metals spot trading: gold (XAUUSD), silver
+                    (XAGUSD) precious metals trading.<br>
+                    <br>
+                    - Crude oil: provide US crude oil (UsOIL) trading<br>
+                    <br>
+                    - Indices: Hong Kong Hang Seng Index (HK50), German Index (GER30), S&amp;P 500 Index
+                    (US500)<br>
+                    <br>
+                    - Cryptocurrency: We offer dozens of mainstream digital currency pairs including Bitcoin
+                    (BTC/USD), Ether (ETH/USD), Ripple (XRP/USD), etc.<br>
+                    <br>
+                </div>
+            </div>
+        </div>
+        <div class="bg"></div>
+    </div>
+    <div class="about_main4">
+        <div class="mainbox">
+            <div class="about_box4">
+                <div class="mtit wow animate__animated animate__fadeInUp" data-wow-duration="1s" data-wow-delay="0.1s" style="visibility: hidden; animation-duration: 1s; animation-delay: 0.1s; animation-name: none;">
+                    <b>Our Goal</b></div>
+                <div class="con wow animate__animated animate__fadeInUp" data-wow-duration="1s" data-wow-delay="0.1s" style="visibility: hidden; animation-duration: 1s; animation-delay: 0.1s; animation-name: none;">
+                    <ul>
+                        <li>IG GLOBAL LIMITED   's mission is to provide its clients with the best spreads and various
+                            financial trading products on the market, while offering unparalleled turnover
+                            rates and the strongest solvency through the world's most technologically
+                            advanced order trading platform.</li>
+                        <li>IG GLOBAL LIMITED    enables its clients (both retail individuals and institutional groups) to
+                            trust the international financial services group when trading, while benefiting
+                            from the best global trading environment.</li>
+                        <li>Having witnessed and experienced the difference between institutional and retail
+                            trading, our goal is to fill the gap and provide you with a fair trading
+                            platform.<br>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="about_main5">
+        <div class="mainbox">
+            <div class="about_box5">
+                <div class="tit wow animate__animated animate__fadeInUp" data-wow-duration="1s" data-wow-delay="0.1s" style="visibility: hidden; animation-duration: 1s; animation-delay: 0.1s; animation-name: none;">
+                    Our Desire is</div>
+                <div class="con wow animate__animated animate__fadeInUp" data-wow-duration="1s" data-wow-delay="0.1s" style="visibility: hidden; animation-duration: 1s; animation-delay: 0.1s; animation-name: none;">
+                    To be a top global financial firm trusted by retail and institutional clients with the
+                    best products and services in the market under a long-term partnership.</div>
+            </div>
+        </div>
+        <div class="bg"><img src="static/picture/footbg.png"></div>
+    </div>
+</div>      <div class="footer">
+        <div class="footer_t"><img src="static/picture/footbg.png"></div>
+        <div class="footbox">
+          <div class="mainbox">
+            <div class="fbox1 wow animate__animated animate__fadeInUp" data-wow-duration="0.6s" data-wow-delay="0.1s" style="
+                visibility: hidden;
+                animation-duration: 0.6s;
+                animation-delay: 0.1s;
+                animation-name: none;
+              ">
+              <div class="t">
+                The company is committed to meeting your global asset trading
+                and investment needs
+              </div>
+              <div class="m">
+                All transactions involve risks, and the loss may exceed your
+                deposit.<a href=""></a>
+              </div>
+            </div>
+            <div class="fbox2 wow animate__animated animate__fadeInUp" data-wow-duration="0.6s" data-wow-delay="0.2s" style="
+                visibility: hidden;
+                animation-duration: 0.6s;
+                animation-delay: 0.2s;
+                animation-name: none;
+              ">
+              <div class="item">
+                <div class="tit">
+                  <div class="t">getting started</div>
+                  <div class="m">Up to $100000 in virtual capital</div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="tit">
+                  <div class="t">Start real contract trading</div>
+                </div>
+                <a href="http://user.igmtradfx.com/register" class="btn btn2">Open a realaccount</a>
+              </div>
+            </div>
+            <div class="fbox3 wow animate__animated animate__fadeInUp" data-wow-duration="0.6s" data-wow-delay="0.3s" style="
+                visibility: hidden;
+                animation-duration: 0.6s;
+                animation-delay: 0.3s;
+                animation-name: none;
+              ">
+              <a href="javascript:;"><img src="static/picture/monee-content-award1.png"></a><a href="javascript:;"><img src="static/picture/monee-content-award2.png"></a><a href="javascript:;"><img src="static/picture/monee-content-award3.png"></a><a href="javascript:;"><img src="static/picture/investors-gold.png"></a><a href="javascript:;"><img src="static/picture/verisign.png"></a><a href="javascript:;"><img src="static/picture/meta-quotes.png"></a><a href="javascript:;"><img src="static/picture/unicef.png"></a>
+            </div>
+            <div class="fbox4 wow animate__animated animate__fadeInUp" style="
+                padding: 15px;
+                visibility: hidden;
+                animation-duration: 0.6s;
+                animation-delay: 0.4s;
+                animation-name: none;
+              " data-wow-duration="0.6s" data-wow-delay="0.4s">
+              <p style="padding: 5px">
+                copyright © 2021 IG GLOBAL LIMITED   . All Rights Reserved
+              </p>
+              <p style="padding: 5px">
+                <a href="privacy_policy.html">Privacy</a>&nbsp;
+                <span>|</span>&nbsp;
+                <a href="risk_disclosure.html">Risk disclosure</a>&nbsp;
+                <span>|</span>&nbsp;
+                <a href="disclaimer_of_warranty.html">Disclaimer of Warranty</a>
+              </p>
+              <p style="padding: 5px">Email : <a href="email-protection.html" class="__cf_email__" data-cfemail="6f1c1a1f1f001d1b2f0608021b1d0e0b06010809171c41010a1b">[email&#160;protected]</a></p>
+            </div>
+            <div class="fbox5 wow animate__animated animate__fadeInUp" data-wow-duration="0.6s" data-wow-delay="0.5s" style="
+                visibility: hidden;
+                animation-duration: 0.6s;
+                animation-delay: 0.5s;
+                animation-name: none;
+              ">
+              Risk Warning : Trading CFDS on margin carries a high level of
+              risk, and may not be suitable for all investors. Before deciding
+              to trade foreign exchange, you should carefully consider your
+              investment objectives, level of experience, and risk appetite.
+              There is a possibility that you may sustain a loss of some or all
+              of your investment and therefore you should not invest money that
+              you cannot afford to lose. You should be aware of all the risks
+              associated with foreign exchange trading, and seek advice from an
+              independent financial advisor if you have any doubts.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script data-cfasync="false" src="static/js/email-decode.min.js"></script><script src="static/js/lizi.js"></script>
+    <canvas width="1728" height="884" style="position: fixed; top: 0px; left: 0px; z-index: -1; opacity: 1"></canvas>
+    <script src="static/js/list=gb_googl.js"></script>
+    <script src="static/js/list=gb_msft.js"></script>
+    <script src="static/js/list=gb_fb.js"></script>
+    <script src="static/js/list=gb_aapl.js"></script>
+    <script type="text/javascript">
+      $(function () {
+        var google = hq_str_gb_googl.split(",");
+        var gb_google = $("#google");
+        if (google[2] < 0) {
+          gb_google.removeClass("up");
+          gb_google.addClass("down");
+          gb_google.text(google[1] + " (" + google[2] + "%)");
+        } else {
+          gb_google.removeClass("down");
+          gb_google.addClass("up");
+          gb_google.text(google[1] + " (" + google[2] + "%)");
+        }
+        var msft = hq_str_gb_msft.split(",");
+        var gb_msft = $("#msft");
+        if (msft[2] < 0) {
+          gb_msft.removeClass("up");
+          gb_msft.addClass("down");
+          gb_msft.text(msft[1] + " (" + msft[2] + "%)");
+        } else {
+          gb_msft.removeClass("down");
+          gb_msft.addClass("up");
+          gb_msft.text(msft[1] + " (" + msft[2] + "%)");
+        }
+        var fb = hq_str_gb_fb.split(",");
+        var gb_fb = $("#fb");
+        if (fb[2] < 0) {
+          gb_fb.removeClass("up");
+          gb_fb.addClass("down");
+          gb_fb.text(fb[1] + " (" + fb[2] + "%)");
+        } else {
+          gb_fb.removeClass("down");
+          gb_fb.addClass("up");
+          gb_fb.text(fb[1] + " (" + fb[2] + "%)");
+        }
+        var apple = hq_str_gb_aapl.split(",");
+        var gb_apple = $("#apple");
+        if (apple[2] < 0) {
+          gb_apple.removeClass("up");
+          gb_apple.addClass("down");
+          gb_apple.text(apple[1] + " (" + apple[2] + "%)");
+        } else {
+          gb_apple.removeClass("down");
+          gb_apple.addClass("up");
+          gb_apple.text(apple[1] + " (" + apple[2] + "%)");
+        }
+      });
+    </script>
+    <style>
+      @media all and (min-width: 768px) {
+        .zidingyi {
+          position: fixed;
+          left: 0px;
+          top: 20%;
+          z-index: 99999999;
+        }
+      }
+
+      @media all and (max-width: 768px) {
+        .zidingyi {
+          position: fixed;
+          right: 0px;
+          bottom: 20px;
+          z-index: 99999999;
+        }
+      }
+    </style>
+
+    <script type="text/javascript">
+      var Tawk_API = Tawk_API || {},
+        Tawk_LoadStart = new Date();
+      (function () {
+        var s1 = document.createElement("script"),
+          s0 = document.getElementsByTagName("script")[0];
+        s1.async = true;
+        s1.src = "#";
+        s1.charset = "UTF-8";
+        s1.setAttribute("crossorigin", "*");
+        s0.parentNode.insertBefore(s1, s0);
+      })();
+    </script>
+  </body>
+</html>
